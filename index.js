@@ -8,7 +8,7 @@ const apiPaths = {
     fetchAllCatagories: `${apiEndpoint}/genre/movie/list?api_key=${apikey}`,
     fetchMoviesList: (id)=>`${apiEndpoint}/discover/movie?api_key=${apikey}&with_genres=${id}`,
     fetchTrending:`${apiEndpoint}/trending/all/day?api_key=${apikey}&language=en-US`,
-    searchOnYoutube: (query) => `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=AIzaSyC6OKf2RzGW1CSxNntqZqgGeUD541E9tyk`
+    searchOnYoutube: (query) => `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=NETFLIX_CLONE_API_KEY`
 }
 
 //boots up the app
